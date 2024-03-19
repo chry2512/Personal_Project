@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 int main(void)
+
+
 {
+
+    /*
+    // Legge 1: !(A && B) è lo stesso di (!A || !B)
+    // Legge 2: !(A || B) è lo stesso di (!A && !B)
+    */
     int x = 10;
     int y = 1;
     int a = 3;
