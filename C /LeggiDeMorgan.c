@@ -17,6 +17,7 @@ int main(void)
     int q = 1;
     int i = 2;
     int j = 9;
+    
 
     if ((!(x < 5) && !(y >= 7)) == (!((x < 5) || (y >= 7))))
         printf("La condizione e' uguale\n");
