@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sito Web con Video</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var i = 0;
+            var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+            setInterval(function() {
+                document.body.style.color = colors[i];
+                i = (i + 1) % colors.length;
+            }, 1000);
+        };
+    </script>
+</head>
+<body>
+    <h1>Benvenuto al mio sito web con video!</h1>
+
+    <div>
+        <h2>Video 1</h2>
+        <iframe width="560" height="315" src="URL_DEL_PRIMO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>Video 2</h2>
+        <iframe width="560" height="315" src="URL_DEL_SECONDO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>Video 3</h2>
+        <iframe width="560" height="315" src="URL_DEL_TERZO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>Video 4</h2>
+        <iframe width="560" height="315" src="URL_DEL_QUARTO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>Video 5</h2>
+        <iframe width="560" height="315" src="URL_DEL_QUINTO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
